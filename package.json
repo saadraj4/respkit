@@ -41,7 +41,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
@@ -51,10 +51,11 @@
   },
   "devDependencies": {
     "axios": "^1.7.0",
+    "node-fetch": "^3.3.2",
+    "rimraf": "^5.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.5.0",
-    "vitest": "^2.0.0",
-    "rimraf": "^5.0.0"
+    "vitest": "^2.0.0"
   },
   "peerDependencies": {
     "axios": ">=0.21.0"
@@ -71,5 +72,9 @@
     "type": "git",
     "url": "https://github.com/saadraj4/respkit.git"
   },
+  "bugs": {
+    "url": "https://github.com/saadraj4/respkit/issues"
+  },
+  "homepage": "https://github.com/saadraj4/respkit#readme",
   "sideEffects": false
 }
