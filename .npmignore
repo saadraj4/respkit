@@ -1,0 +1,13 @@
+src/
+tests/
+examples/
+coverage/
+.gitignore
+.npmignore
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+*.tgz
+.DS_Store
+Thumbs.db
+
